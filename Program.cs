@@ -21,7 +21,7 @@ namespace Domain
                 Budget = 10000
             };
 
-            //client.UpdateBudget(15000);
+           
 
             Project project = new Project
             {
@@ -34,7 +34,7 @@ namespace Domain
                 End_date = new DateTime(2024, 4, 30)
             };
 
-            //project.CalculateDuration();
+            
 
             Campaign campaign = new Campaign
             {
@@ -46,7 +46,7 @@ namespace Domain
                 Budget = 2000
             };
 
-            //campaign.ChangeMediaChannels("Facebook, Instagram, Twitter");
+            
 
             Brand brand = new Brand
             {
@@ -58,7 +58,7 @@ namespace Domain
                 Marketing_strategy = "Focus on social media..."
             };
 
-            //brand.DisplayBrandInfo();
+            
 
             Partner partner = new Partner
             {
@@ -68,7 +68,7 @@ namespace Domain
                 Analytics = "Data analysis..."
             };
 
-            //partner.GenerateReport();
+            
 
             Invoice invoice = new Invoice
             {
